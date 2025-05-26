@@ -2,9 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* SLIDER ANIMATION FOR SKILLS SECTION */
 .tech-slider {
   display: flex;
-  animation: slide 10s linear infinite;
+  animation: slide 30s linear infinite;
+  width: max-content;
 }
 
 @keyframes slide {
